@@ -1,0 +1,131 @@
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Exo', sans-serif;
+  font-size: 8rem;
+  color: #730068;
+}
+
+h2 {
+  font-family: 'Harmattan', sans-serif;
+  color: #434982;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: 'Harmattan', sans-serif;
+  font-size: 16px;
+}
+
+hr {
+  margin: 0 400px 50px 400px;
+  border-top: 10px dotted blue;
+}
+
+
+label {
+  font-size: 20px;
+}
+
+.btn {
+  background: #55d934;
+  background-image: -webkit-linear-gradient(top, #55d934, #2d731d);
+  background-image: -moz-linear-gradient(top, #55d934, #2d731d);
+  background-image: -ms-linear-gradient(top, #55d934, #2d731d);
+  background-image: -o-linear-gradient(top, #55d934, #2d731d);
+  background-image: linear-gradient(to bottom, #55d934, #2d731d);
+  -webkit-border-radius: 16;
+  -moz-border-radius: 16;
+  border-radius: 16px;
+  color: #e0e899;
+  font-size: 20px;
+  padding: 6px 12px 6px 12px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #dcfc3c;
+  background-image: -webkit-linear-gradient(top, #dcfc3c, #b5d934);
+  background-image: -moz-linear-gradient(top, #dcfc3c, #b5d934);
+  background-image: -ms-linear-gradient(top, #dcfc3c, #b5d934);
+  background-image: -o-linear-gradient(top, #dcfc3c, #b5d934);
+  background-image: linear-gradient(to bottom, #dcfc3c, #b5d934);
+  text-decoration: none;
+  color: #e0e899;
+}
+
+.calculator {
+  padding: 2rem 10rem 2rem;
+}
+
+.submit-button, .clear-button {
+  margin: 1.2rem 1rem;
+}
+
+.title {
+  background-color: #DEFF8B;
+  padding: 3rem 10rem 2rem;
+}
+
+.key-in {
+  margin-top: 1.1rem;
+}
+
+.scale-photo {
+  width: 50px;
+  margin-right: 8px;
+}
+
+.height-photo {
+  width: 60px;
+}
+
+
+table, th, tr, td {
+  border-bottom: 1px solid black;
+}
+
+.bmi-value {
+  color: #F2F3F3;
+}
+
+.bmi-underweight {
+  color: #FF8E00;
+}
+
+.bmi-normal {
+  color: #5FD068;
+}
+
+.bmi-overweight {
+  color: #EA5C2B;
+}
+
+.bmi-obesity {
+  color: red;
+}
+
+.bmi-error {
+  color: #C85C5C;
+}
+
+.table-title {
+  font-family: 'Martel', serif;
+}
+
+.bmi-table {
+  margin: 2rem auto 4rem;
+  width: 500px;
+  height: 200px;
+  font-family: 'Harmattan', sans-serif;
+  font-size: 1.5rem;
+}
+
+.footer {
+  background-color: #DEFF8B;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
